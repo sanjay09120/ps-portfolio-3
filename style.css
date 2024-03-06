@@ -87,6 +87,7 @@ section {
   bottom: 10rem;
   right: 0;
   z-index: -1;
+  margin: 0 auto;
 }
 .home-circle-2 {
   position: absolute;
@@ -556,7 +557,7 @@ span {
     padding: 2rem 3%;
   }
   section{
-    padding: 10rem 3% 2rem;
+    padding: 3rem 3% 2rem;
   }
   .services {
     padding-bottom: 7rem;
@@ -595,17 +596,17 @@ span {
   }
   .home{
     flex-direction: column-reverse;
-    margin: 5rem 4rem;
+    margin: -3rem 4rem;
   }
   .home-circle-1{
     width: 45vw;
     height: 45vw;
-    top: 50rem;
+    top: 27rem;
   }
   .home-circle-2{
     width: 55vw;
     height: 55vw;
-    top: 10rem;
+    top: 5rem;
   }
   .hoome-img{
     display: grid;
@@ -632,6 +633,12 @@ span {
   }
   .about-content {
     margin: 1rem 4rem;
+  }
+  .heading {
+    font-size: 6rem;
+  }
+  .about-content h2{
+    font-size: 6rem;
   }
   .about-img{
     border: none;
